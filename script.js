@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "MACHAYENGE - EMIWAY", filePath: "songs/1.mp3", coverPath: "covers/12.jpg"},
-    {songName: "Balma - Khiladi 786", filePath: "songs/2.mp3", coverPath: "covers/11.jpg"},
-    {songName: "निशाणा तुला दिसला ना - ANURADHA PAUDWAL, SURESH WADKAR", filePath: "songs/3.mp3", coverPath: "covers/13.jpg"},
-    {songName: "तुम्हारी कसम मैं शराबी ना होता- आनंद शिंदे", filePath: "songs/4.mp3", coverPath: "covers/14.jpg"},
-    {songName: "Bewafa - Imran khan", filePath: "songs/5.mp3", coverPath: "covers/15.jpg"},
-    {songName: "Tere Ishq Mein Naachenge - Raja Hindustani", filePath: "songs/6.mp3", coverPath: "covers/16.jpg"},
-    {songName: "Peele Peele O Morey Raja - Tirangaa", filePath: "songs/7.mp3", coverPath: "covers/17.jpg"},
-    {songName: "Hale Dil Tujhko Sunata - Murder 2 ", filePath: "songs/8.mp3", coverPath: "covers/18.jpg"},
-    {songName: "Ro-Ro Ke Arja Gujarda Hai Dil - Honey Singh", filePath: "songs/9.mp3", coverPath: "covers/19.jpg"},
-    {songName: "Yaarr Ni Milyaa - Harrdy Sandhu, B Praak", filePath: "songs/10.mp3", coverPath: "covers/20.jpg"},
+    {songName: "MACHAYENGE - EMIWAY", filePath: "1.mp3", coverPath: "12.jpg"},
+    {songName: "Balma - Khiladi 786", filePath: "2.mp3", coverPath: "11.jpg"},
+    {songName: "निशाणा तुला दिसला ना - ANURADHA PAUDWAL, SURESH WADKAR", filePath: "3.mp3", coverPath: "13.jpg"},
+    {songName: "तुम्हारी कसम मैं शराबी ना होता- आनंद शिंदे", filePath: "4.mp3", coverPath: "14.jpg"},
+    {songName: "Bewafa - Imran khan", filePath: "5.mp3", coverPath: "15.jpg"},
+    {songName: "Tere Ishq Mein Naachenge - Raja Hindustani", filePath: "6.mp3", coverPath: "16.jpg"},
+    {songName: "Peele Peele O Morey Raja - Tirangaa", filePath: "7.mp3", coverPath: "17.jpg"},
+    {songName: "Hale Dil Tujhko Sunata - Murder 2 ", filePath: "8.mp3", coverPath: "18.jpg"},
+    {songName: "Ro-Ro Ke Arja Gujarda Hai Dil - Honey Singh", filePath: "9.mp3", coverPath: "19.jpg"},
+    {songName: "Yaarr Ni Milyaa - Harrdy Sandhu, B Praak", filePath: "10.mp3", coverPath: "20.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
